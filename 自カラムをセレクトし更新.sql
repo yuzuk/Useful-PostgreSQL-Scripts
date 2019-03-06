@@ -1,4 +1,6 @@
---username　をセレクトし編集しつつ更新する
+--　username　をセレクトし編集しつつ更新する
+--　mst_usersに、usernameカラムがあるとして。
+
 UPDATE mst_users
 SET username = B.uname
 FROM
